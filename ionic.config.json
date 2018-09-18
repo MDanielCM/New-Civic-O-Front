@@ -1,0 +1,7 @@
+{
+  "name": "New-Civic-O-Front",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
