@@ -1,0 +1,9 @@
+page-question {
+    ion-card.card ion-card-header {
+        color: map-get($colors, primary);
+      }
+
+    .fondo { 
+    background-color: lightgray;
+    }
+}
