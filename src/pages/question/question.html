@@ -1,0 +1,67 @@
+<!--
+  Generated template for the QuestionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding>
+  <ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Ey! Civic-O</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content class="cards-bg">
+    <ion-card class="card">
+      <ion-card-header>
+        Te metiste en problemas
+      </ion-card-header>
+      
+      <ion-card-content>
+        Te pusiste a poner música en tu local, pero te hiciste el loco con los derechos de autor, 
+        no pagaste, ahora la multa es de $ 393.440.
+      </ion-card-content>
+
+      <ion-card-content class="back">
+          <ion-list radio-group [(ngModel)]="relationship">
+            <ion-row>
+              <ion-col col-10>¡Ey! Nadie se da cuenta de eso.</ion-col>
+              <ion-col col-2>
+                <ion-item>
+                  <ion-radio value="0" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-10>Ahora mismo me contacto con SAICO y ASIMPRO.</ion-col>
+              <ion-col col-2>
+                <ion-item>
+                  <ion-radio value="1" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-10>Lo mejor será, que dejemos así.</ion-col>
+              <ion-col col-2>
+                <ion-item>
+                  <ion-radio value="2" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col col-10>Eso es para incautos y crédulos.</ion-col>
+              <ion-col col-2>
+                <ion-item>
+                  <ion-radio value="3" checked></ion-radio>
+                </ion-item>
+              </ion-col>
+            </ion-row>
+          </ion-list>
+          <button ion-button round class="alling-center">Responder</button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-content>
